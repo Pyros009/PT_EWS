@@ -29,7 +29,7 @@ The biggest wall was how to implement (near) real-time processing. Python follow
 
 ### Deliverables:
 
-Presentation - []
-
-
+Presentation - [https://docs.google.com/presentation/d/1mfNBHb25qzymuxEZuQ3XqDP8nWq9iWIRDuMScPlRra4/edit?usp=sharing]
+Kanban - [https://trello.com/invite/b/6717f6d1cbc0a1676b4a993f/ATTI641475a5e753919737745911417fa1b1302B2F1C/ews]
+Tableau - [https://public.tableau.com/views/Overview_17309892235290/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
 
