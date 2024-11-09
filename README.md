@@ -8,7 +8,7 @@ Using data analysis and machine-learning tools, this project attempts to create 
 
 By using real historical data from [IPMA](https://www.ipma.pt/pt/geofisica/sismicidade/), [USGS](https://earthquake.usgs.gov/earthquakes/map/?extent=20.67391,-37.00195&extent=51.17934,33.31055&range=search&sort=oldest&timeZone=utc&search=%7B%22name%22:%22Search%20Results%22,%22params%22:%7B%22starttime%22:%222005-01-01%2000:00:00%22,%22endtime%22:%222024-10-29%2023:59:59%22,%22maxlatitude%22:46.468,%22minlatitude%22:30.487,%22maxlongitude%22:2.197,%22minlongitude%22:-23.687,%22minmagnitude%22:-2,%22orderby%22:%22time%22%7D%7D) and [EarthquakeList](https://earthquakelist.org/portugal/) websites coupled with data processing and integration, an event database was created to use as foundations to build data on.
 
-Real wavedata was acquired by prompting [IRISDMC/Earthscope](https://www.earthscope.org/) servers on info from seismic stations belonging to Instituto D. Luis ([IDL-FCUL](https://idl.ciencias.ulisboa.pt/)) using Obspy module. A script was created to automatically clean (as much as possible) the wave data and retrieve important parameters.
+Real wavedata was acquired by prompting [IRISDMC](https://ds.iris.edu/mda/LX/)/[Earthscope](https://www.earthscope.org/) servers on info from seismic stations belonging to Instituto D. Luis ([IDL-FCUL](https://idl.ciencias.ulisboa.pt/)) using [Obspy](https://docs.obspy.org/index.html) module. A script was created to automatically clean (as much as possible) the wave data and retrieve important parameters.
 
 All the information acquired was then passed into a machine-learning algorithm to try and predict if an incomming wave would be strong enough to be sensed (intensity scale > III).
 
