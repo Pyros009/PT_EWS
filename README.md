@@ -2,11 +2,11 @@
 ##     using historic data to create an early-warning model
 
 ### Project overview:
-Portugal has been shaken by strong earthquakes() through time. Although earthquakes cannot be predicted, there's been many cases of successful early-warning system implementations across the globe, which contribute greatly to the mitigation of effects of these types of events.
+Portugal has been shaken by strong earthquakes([1755](https://en.wikipedia.org/wiki/1755_Lisbon_earthquake), [1909](https://en.wikipedia.org/wiki/1909_Benavente_earthquake), [1969](https://en.wikipedia.org/wiki/1969_Portugal_earthquake) ) through time. Although earthquakes cannot be predicted, there's been many cases of successful early-warning system implementations across the globe, which contribute greatly to the mitigation of effects of these types of events.
 
 Using data analysis and machine-learning tools, I attempt to create a model that predicts if there's a strong wave approaching and triggers a warning and try to implement it in (near) real-time using streaming systems like IRISDMC.
 
-By using real historical data from IPMA [www.ipma.pt], USGS and earthquake websites coupled with data processing and integration, an event database was created to use as foundations to build data on.
+By using real historical data from [IPMA](https://www.ipma.pt/pt/geofisica/sismicidade/), [USGS]() and [Earthquakes]() websites coupled with data processing and integration, an event database was created to use as foundations to build data on.
 
 Real wavedata was acquired by prompting IRISDMC servers on info from seismic stations belonging to Instituto D. Luis (IDL-FCUL) using Obspy module. A script was created to automatically clean (as much as possible) the wave data and retrieve important parameters.
 
