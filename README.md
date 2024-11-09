@@ -6,7 +6,7 @@ Portugal has been shaken by strong earthquakes() through time. Although earthqua
 
 Using data analysis and machine-learning tools, I attempt to create a model that predicts if there's a strong wave approaching and triggers a warning and try to implement it in (near) real-time using streaming systems like IRISDMC.
 
-By using real historical data from IPMA (www.ipma.pt), USGS and earthquake websites coupled with data processing and integration, an event database was created to use as foundations to build data on.
+By using real historical data from IPMA [www.ipma.pt], USGS and earthquake websites coupled with data processing and integration, an event database was created to use as foundations to build data on.
 
 Real wavedata was acquired by prompting IRISDMC servers on info from seismic stations belonging to Instituto D. Luis (IDL-FCUL) using Obspy module. A script was created to automatically clean (as much as possible) the wave data and retrieve important parameters.
 
@@ -24,6 +24,12 @@ The biggest wall was how to implement (near) real-time processing. Python follow
 
 
 
+### Next steps:
+
+
+### Deliverables:
+
+Presentation - []
 
 
 
