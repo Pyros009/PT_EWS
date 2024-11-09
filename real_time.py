@@ -13,8 +13,8 @@ from multiprocessing import Process, Queue
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from fetch import DataFetcher
-from process import process_trace
+from src.fetch import DataFetcher
+from src.process import process_trace
 
 import warnings
 warnings.filterwarnings('ignore')

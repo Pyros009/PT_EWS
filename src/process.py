@@ -5,11 +5,11 @@ import seaborn as sns
 import numpy as np
 import logging
 import logging.handlers
-import time
+import time, os
 from collections import deque
 import pandas as pd        
-from filtering import filtering_data
-from fourier import fourier_transform
+from src.filtering import filtering_data
+from src.fourier import fourier_transform
 from scipy.signal import find_peaks, convolve, welch
 from obspy.signal.trigger import classic_sta_lta, recursive_sta_lta, z_detect
 from scipy.fft import fft, fftfreq
@@ -522,7 +522,8 @@ def process_trace(queue):
                             continue  # Skip this batch and continue with the next set of traces
 
                         # Load the model from the .pkl file
-                        model = joblib.load('C:/Users/Utilizador/Desktop/IRONHACK/FinalProj/model_FINAL.pkl')
+                        model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'model_FINAL.pkl')
+                        model = joblib.load(model_path)
                         best_model = model.best_estimator_
 
                         # Perform predictions
