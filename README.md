@@ -2,7 +2,7 @@
 ##     using historic data to create an early-warning model
 
 ### Project overview:
-Portugal has been shaken by strong earthquakes([1755](https://en.wikipedia.org/wiki/1755_Lisbon_earthquake), [1909](https://en.wikipedia.org/wiki/1909_Benavente_earthquake), [1969](https://en.wikipedia.org/wiki/1969_Portugal_earthquake) ) through time. Although earthquakes cannot be predicted, there's been many cases of successful early-warning system implementations across the globe, which contribute greatly to the mitigation of effects of these types of events.
+Portugal has been shaken by strong [earthquakes](https://en.wikipedia.org/wiki/List_of_earthquakes_in_Portugal)([1755](https://en.wikipedia.org/wiki/1755_Lisbon_earthquake), [1909](https://en.wikipedia.org/wiki/1909_Benavente_earthquake), [1969](https://en.wikipedia.org/wiki/1969_Portugal_earthquake), etc) through time. Although earthquakes cannot be predicted, there's been many cases of successful early-warning system implementations across the globe, which contribute greatly to the mitigation of effects of these types of events.
 
 Using data analysis and machine-learning tools, I attempt to create a model that predicts if there's a strong wave approaching and triggers a warning and try to implement it in (near) real-time using streaming systems like IRISDMC.
 
