@@ -38,7 +38,7 @@ Presentation - [Gdocs presentation](https://docs.google.com/presentation/d/1mfNB
 Tableau - [Overview of 2009-2023 Earthquakes in tableau](https://public.tableau.com/views/Overview_17309892235290/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)<br>
 Kanban - [Work management](https://trello.com/invite/b/6717f6d1cbc0a1676b4a993f/ATTI641475a5e753919737745911417fa1b1302B2F1C/ews)<br>
 
-### Some Publications: 
+### Some reference publications: 
 
 - [Somoza L, Medialdea T, Terrinha P, Ramos A and Vázquez J-T (2021) - Submarine Active Faults and MorphoTectonics Around the Iberian Margins: Seismic and Tsunamis Hazards. Front. Earth Sci. 9:653639. doi: 10.3389/feart.2021.653639](https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2021.653639/full)<br>
 - [Havskov J. & Ottemöller L. (2009) - Processing Earthquake Data ](https://www.geo.uib.no/seismo/SOFTWARE/DOCUMENTATION/processing_earthquake_data.pdf)<br>
