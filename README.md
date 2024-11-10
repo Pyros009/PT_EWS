@@ -34,7 +34,7 @@ Although Machine-learning the project allowed the creation of a model to predict
 
 Real-time data acquisition and processing can be done, but program application, refinements on speed and processing capacity still need to be aprimorated.
 
-As conclusion, the project indeed points towards the viability of developing a machine-learning algorithm to predict incomming strong-motion waves (large enough to be sensed).
+As conclusion, the project indeed points towards the viability of developing a machine-learning algorithm to predict incomming strong-motion waves (large enough to be sensed), however further work needs to be done to do some actual implementation.
 
 ### Next steps:
 Further refinement of the model is a must to achieve reliability. This needs to be preceded by further fine-tuning of historical data values, in order to create a much more robust historic database from which our model learns. Refining some hyperparameters might also prove advantageous once the database is aprimorated.
