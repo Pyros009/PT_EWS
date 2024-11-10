@@ -30,7 +30,9 @@ Wave data cleanup required multiple attempts just to scratch the bare minimum to
 The biggest wall was how to implement (near) real-time processing. Python follows a linear (top-to-bottom) structure, which means that while it's gathering data, it cannot process it and vice-versa. Since data didn't come within a specific time-interval nor was predictable on arrival time, multi-processing had to be implemented (with data transfering between them).
 
 ### Conclusions:
-Although Machine-learning the project allowed the creation of a model to predict if an incomming event was successful, the accuracy and recall values of the model are still too unreliable for deployment. Real-time data acquisition and processing can be done, but refinements on speed and capacity of the program still need to be aprimorated.
+Although Machine-learning the project allowed the creation of a model to predict if an incomming event was successful, the accuracy and recall values of the model are still too unreliable for deployment.
+
+Real-time data acquisition and processing can be done, but program application, refinements on speed and processing capacity still need to be aprimorated.
 
 As conclusion, the project indeed points towards the viability of developing a machine-learning algorithm to predict incomming strong-motion waves (large enough to be sensed).
 
