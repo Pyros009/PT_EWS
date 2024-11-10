@@ -1,0 +1,19 @@
+-c requirements.txt
+
+pandas
+seaborn
+matplotlib
+multiprocessing
+multithreading
+beautifulsoup4
+imblearn
+joblib
+lightgbm
+numpy
+obspy
+pandas
+pdfplumber
+requests
+scikit-learn
+scipy
+xgboost

@@ -421,6 +421,7 @@ def warn_check(st, time_window):
         event_data["Domin_freq_n"] = abs(event_data["Domin_freq_n"])
         event_data["Domin_freq_e"] = abs(event_data["Domin_freq_e"])
         event_data["Domin_freq_z"] = abs(event_data["Domin_freq_z"])
+        event_data["Mw"] = 4.525*np.log10(event_data["P-tau_c"]) +5.036
         event_data["P-Vel amp (m/s)"] = abs(event_data["P-Vel amp (m/s)"])
         if "S-Vel amp (m/s)" in event_data.columns:
             event_data["S-Vel amp (m/s)"] = abs(event_data["S-Vel amp (m/s)"])
@@ -432,13 +433,13 @@ def warn_check(st, time_window):
         else:
             logging.info("Column 'S-Disp amp (m)' not found!")            
             
-        required_cols = ['Domin_freq_z','P-peak2peak', 'P-Disp amp (m)', 'P-r', 'P-moment_history', 'P-tau_c','RMS','Energy']
+        required_cols = ['Domin_freq_z','P-peak2peak', 'P-Disp amp (m)', 'P-r', 'P-moment_history', 'P-tau_c','Mw']
         #error avoidance
         missing_columns = [col for col in required_cols if col not in event_data.columns]
         for col in missing_columns:
             event_data[col] = np.nan
             
-        features = event_data [['Domin_freq_z','P-peak2peak', 'P-Disp amp (m)', 'P-r', 'P-moment_history', 'P-tau_c','RMS','Energy']]
+        features = event_data [['Domin_freq_z','P-peak2peak', 'P-Disp amp (m)', 'P-r', 'P-moment_history', 'P-tau_c','Mw']]
         
 
 
