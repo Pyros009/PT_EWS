@@ -2,12 +2,13 @@
 ##     using historic data to create an early-warning model
 
 ### Module composition:
+- /dbs: contains all .csv and data-relevant files
 - /models: contains all relevant ML modules for the predictions
 - /src: contains all python dependencies to acquire/process the data
     -/run_once: contains all the files required to create the databases and associated data folders.
 - /visualizations: contains a link to tableau visualizations
 
-- main: contains 2 files (real_time.py and pick_from.py) aswell as this readme. real_time is the program that runs real-time data acquisition (retrieved from IRISDMC using obspy) and processing. pick_from is a program where one can pass event dates and it will fetch the data, process it and retrieve if the event would trigger the warning.  
+- main: contains 2 files (real_time.py and event_main.py) aswell as this readme. real_time is the program that runs real-time data acquisition (retrieved from IRISDMC using obspy) and processing. event_main is a program where one can pass event dates and it will fetch the data, process it and retrieve if the event would trigger the warning.  
 
 ### Project overview:
 Portugal has been shaken by strong [earthquakes](https://en.wikipedia.org/wiki/List_of_earthquakes_in_Portugal) ([1755](https://en.wikipedia.org/wiki/1755_Lisbon_earthquake), [1909](https://en.wikipedia.org/wiki/1909_Benavente_earthquake), [1969](https://en.wikipedia.org/wiki/1969_Portugal_earthquake), etc) through time. Although earthquakes cannot be predicted, there's been many cases of successful early-warning system implementations across the globe, which contribute greatly to the mitigation of effects of these types of events.
